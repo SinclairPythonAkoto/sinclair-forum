@@ -15,4 +15,4 @@ Services
 - Users can comment on the development services provided by myself
 
 CoLab Network
-- 
+- This is a platform that allows users (clients as well as developers) to share ideas and collaberate
