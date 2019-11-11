@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-	return 'hello Sinclair !'
+	foot = "Design. Build. Apply!"
+	return render_template('homepage.html', foot=foot)
 
 if __name__ == '__main__':
 	app.run()
