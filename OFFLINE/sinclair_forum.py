@@ -7,5 +7,7 @@ def homepage():
 	foot = "Design. Build. Apply!"
 	return render_template('homepage.html', foot=foot)
 
+
+
 if __name__ == '__main__':
 	app.run()
