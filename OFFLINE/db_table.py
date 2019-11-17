@@ -5,7 +5,7 @@ from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, 
 meta = MetaData()
 engine = create_engine("postgresql://postgres:jason2017@localhost/test_db", echo = True)
 from sqlalchemy.ext.declarative import declarative_base
-Base = declarative_base()
+Base = declarative_base()HomeHome
 
 from datetime import datetime
 # this is added to create a date stamp for SQL

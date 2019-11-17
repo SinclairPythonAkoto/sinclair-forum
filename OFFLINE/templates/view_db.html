@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}
+  Sinclair's Forum
+  <meta name="description" content="View database entries.">
+  <meta name="author" content="SinclairPythonAkoto">
+{% endblock %}
+
+{% block content %}
+<div class="viewDB">
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Comment</th>
+    </tr>
+    {% for d in data %}
+    <tr>
+      <th>{{ d.id }}</th>
+      <th>{{ d.name }}</th>
+      <th>{{ d.age }}</th>
+      <th>{{ d.comment }}</th>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}
